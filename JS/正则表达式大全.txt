@@ -1,0 +1,9 @@
+//ÑéÖ¤³µÅÆºÅ
+function isVehicleNumber(vehicleNumber) {
+    var result = false;
+    if (vehicleNumber.length == 7){
+        var express = /^[¾©½ò»¦Óå¼½Ô¥ÔÆÁÉºÚÏæÍîÂ³ĞÂËÕÕã¸Ó¶õ¹ğ¸Ê½úÃÉÉÂ¼ªÃö¹óÔÁÇà²Ø´¨ÄşÇíÊ¹ÁìA-Z]{1}[A-Z]{1}[A-Z0-9]{4}[A-Z0-9¹ÒÑ§¾¯¸Û°Ä]{1}$/;
+        result = express.test(vehicleNumber);
+    }
+    return result;
+}
