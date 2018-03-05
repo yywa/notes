@@ -18,7 +18,7 @@
 
 ​	打开浏览器，输入地址:(http://localhost/)，访问页面如下图
 
- ![~$Z4D`CVPFHI92{OSGA9BW](~]$Z4D`CVPFHI92{OSGA9BW.png)
+  ![123](123.png)
 
 ##### 停止nginx
 
