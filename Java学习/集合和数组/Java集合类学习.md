@@ -24,10 +24,14 @@
 
 ​	因为Collection类继承了Iterable类.因此，不论Collection的实际类型如何，它都支持一个iterator()方法，可以通过迭代遍历Collection中的每一个元素。
 
-[^Iterator it = collection.iterator(); // 获得一个迭代子]: 
-[^while(it.hasNext()) {]: 
-[^Object obj = it.next(); // 得到下一个元素]: 
-[^}]: 
+```java
+ Iterator it = collection.iterator(); // 获得一个迭代子xxxxxxxxxx
+ while(it.hasNext()) {
+ 	Object obj = it.next(); // 得到下一个元素
+ }
+```
+
+
 
 ## 三、Set
 
@@ -73,7 +77,7 @@ public class Demo {
 
 
 
-输出的结果是 ![`7~I$)~L{DUV_~M~ZDBS7@L](`7~I$)~L{DUV_~M~ZDBS7@L.png)
+输出的结果是  ![8D@6K5RQA{2ZRKB9MMBXS7](8D@6K5RQA{2ZRK]B9MMBXS7.png)
 
 ​	既然TreeSet可以自然排序，那么TreeSet必定是有排序规则的。
 
@@ -107,7 +111,7 @@ public int compareTo(String anotherString) {
 
 ##### 	1.ArrayList
 
- ![20161011235305081](20161011235305081.png)
+  ![20161011235305081](20161011235305081.png)
 
 ​	查询速度快，增删改慢。
 
