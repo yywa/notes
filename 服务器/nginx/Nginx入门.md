@@ -6,7 +6,7 @@
 
 ​	从官方网站上下载对应版本的nginx，解压完成后的目录结构如
 
- ![1520243891(1)](image\1520243891(1).jpg)
+![1520243891(1)](1520243891(1).jpg)
 
 ​	启动nginx命令
 
@@ -18,7 +18,7 @@
 
 ​	打开浏览器，输入地址:(http://localhost/)，访问页面如下图
 
- ![~$Z4D`CVPFHI92{OSGA9BW](image\~]$Z4D`CVPFHI92{OSGA9BW.png)
+ ![~$Z4D`CVPFHI92{OSGA9BW](~]$Z4D`CVPFHI92{OSGA9BW.png)
 
 ##### 停止nginx
 
