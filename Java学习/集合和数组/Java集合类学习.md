@@ -107,7 +107,7 @@ public int compareTo(String anotherString) {
 
 ### 四、List
 
-​	List实现Collection接口，它的数据结构是有序可以重复的结合。有三个实现类：ArrayList，LinkList，Vector三个实现类。
+​	List实现Collection接口，它的数据结构是有序可以重复的结合。有三个实现类：ArrayList，LinkedList，Vector三个实现类。
 
 ##### 	1.ArrayList
 
@@ -123,7 +123,7 @@ public int compareTo(String anotherString) {
 
 
 
-##### 	2.LinkList
+##### 	2.LinkedList
 
  ![20161011235229018](20161011235229018.png)
 
