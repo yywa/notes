@@ -129,6 +129,18 @@ public int compareTo(String anotherString) {
 
 ​	链表结构，增删改速度快，查询慢。
 
+​	LinkedList的本质是双向链表
+
+1. LinkedList继承与AbstractSequentialList，并且实现了Dequeue接口
+2. LinkedList包含两个重要的成员：header和size
+
+   - header是双向链表的表头，它是双向链表节点所对应的类Entry的实例。Entry中包含成员变量：previous，next，element。其中，previous是该节点的上一个节点，next是该节点的下一个节点，element是该节点所包含的值。
+   - size是 双向链表中的节点的个数。
+
+​	**既然LinkedList实现了List接口，那么它是如何将双向链表和索引值联系起来的？**
+
+​	它通过一个计数索引值来实现的。当我们调用get(int index)时，首先会比较location和双向链表长度的1/2；若后者大，则从链表头开始往后找，否者，则从链表尾开始向前找。
+
 ### 五、Map
 
 ​	key-value形式存值。
